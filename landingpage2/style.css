@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+   width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: ;
+}
+.circle{
+    width: 25%;
+    height: 50%;
+    position:absolute;
+    right: 10%;
+    bottom: 10%;
+    background:rgb(32, 74, 81);
+    border-radius: 50%;
+}
+.img{
+    width: 25%;
+    height: 50%;
+    position:absolute;
+    right: 10%;
+    bottom: 10%;
+    background-image: url(./makepng-transformed.webp);
+    background-position: center;
+}
+

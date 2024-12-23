@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;   
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1724747280369-8d02a00893e1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+#text {
+   position:absolute;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}  
+#text p{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+#text footer{
+    color: rgb(140, 119, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    font-weight: 900;
+}
+ #text button{
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    background-color:rgba(245, 222, 179, 0.428);
+    border: none;
+    color: rgb(19, 18, 16);
+    border-radius: 20px;
+}
+#text button:hover{
+    font-size: 20px;
+    font-weight: 1000;
+    border: 2px solid black;
+    color:black;
+    
+} 

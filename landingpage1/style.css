@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+   
+}
+.photo{
+    position:absolute;
+    height: 100%;
+    width: 35%;
+    background-image: url(https://fuckingyoung.es/wp-content/uploads/2014/09/Bei-Kuo-SS15-Lookbook_fy12.jpg);
+    background-size: cover;
+    background-position:center;
+    left: 55%;
+}
+#circle{
+    position:absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(251, 50, 50);
+    top: 50%;
+   left: -35px;
+   transform: translate(0,-50%);
+   border-radius: 50%;
+   box-shadow: 0 10px 30px rgb(140, 31, 31);
+}
+.ri-play-mini-fill{
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+#one{
+    position: absolute;
+    height: 50%;
+    width: 10%;
+    right: 0;
+    background-color: rgb(24, 24, 40);
+}
+#two{
+    position: absolute;
+    height: 50%;
+    width: 10%;
+    right: 0;
+    top: 50%;
+    background-color: rgb(251, 50, 50);
+}
+.ri-search-line{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+}
+#left{
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+#tick{
+    position:absolute;
+    height: 10%;
+    width: 10%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAYFBMVEX///8AAAD7+/vu7u7y8vLAwMDS0tJISEjg4ODX19dycnLm5uapqalYWFhubm5+fn4dHR0YGBiTk5PMzMxhYWEvLy+JiYkNDQ1QUFA3Nzevr69nZ2cpKSk+Pj6ioqKampqqzju/AAACC0lEQVRoge3X17aCMBAFUCcmIh0BKRHh///yAmKhpUB4uGvNfjXkwCQD8XRCCCGEEEIIIYQQQggZRryjZqYsOQt+fthHhBK7ThtR7MlJzae6zLkXHhWOySAxG0rt2AfwEyIe5oFlMJS4XnAHgFC6egmAsa1FWFi2oZCLl7ZH23GukdRLU0Cv5CrD2zv094deeQqDx0Xpiqwdmu0LdVkYvVMhk9e4x7rBO/Y0vTTP2ye1rMXt83Xub3XjEpMrf9zhy2eqse2bo7vgplidkTMLLfiluLQvfaGhUr/RF2I3aT5KvYVXnQnoq1B6T0y5E8FYVGvWLB4uVF/jJHvC1JPppba9975U7Uq7tmahAMGG75rz2Rfye+RBvpCaq3bteLLvBMINeU6ycikVnpKP3prwO4W1NgO166JaCu26VvLRW0NHsywkE5cH86001DjQ6doxPpqpnLw2aRIWK6Ft/2VaXTsx3aI+f28UmsTpYuBLtXFpB2TpSXzHCYrFjfSh37UTTDj9Gmf/aTSWp8wKEm/p2qlAN9bat7Qfou2zYHPX7gq+yY+q6tRLHcVmDqED1c1VcVM1Hqi1U2H4v01HIVbvPKMqk6RGjZn2maHCV6Nleml/CFY5lf3B3Icvp5bxIUv7y56f3qrwcujDvjH/JzT36+3nCm2UebHjhLHHDi8wQgghhBBCCCGEEEL/3x8mKBNCJwzZ0QAAAABJRU5ErkJggg==);
+    background-size: cover;
+    left: 10%;
+    top: 6%;
+}
+#first{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: 10px;
+    font-weight:10;
+}
+#second{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: 10px;
+    font-weight:10;
+}
+#third{ 
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    font-size: 500%;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: 70px;
+    font-weight: 300.8;
+}
+#forth{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    font-size: 500%;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: 70px;
+    font-weight: 300.8;
+}
+#text{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) !important;
+    transform: translate(-50%,-50%) ;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    letter-spacing: 5px;
+    word-spacing: 25px;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 20;
+
+}
