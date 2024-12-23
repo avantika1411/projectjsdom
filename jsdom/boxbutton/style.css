@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#box{
+height:300px;
+width: 300px;
+background-color:red;
+border: 1px solid black;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-family:sans-serif;
+    background: rgb(11, 4, 1);
+    border-radius: 20px;
+    color: white ;
+}
+button:active{
+    scale: 1.1;
+    background-color: rgb(87, 87, 95);
+}

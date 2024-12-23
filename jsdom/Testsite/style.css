@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: rgb(222, 235, 255);
+   
+}
+#card{
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 420px;
+   background-color: #fff;
+   border-radius: 10px;
+    
+}
+#card #upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+#card #upper img{
+    height: 150px;
+    width: 110px;
+    
+}
+#middle {
+    padding: 0 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 7px;
+    i{
+        font-size: 20px;
+    }
+}
+#threedots p{
+    font-size: 30px;
+}
+#circle{
+    
+     height: 100px;
+     width: 100px;
+     background-color: black;
+     border-radius: 50%;
+     margin-top: -12px;  
+     overflow: hidden;
+     img{
+        height: 100px;
+     width: 100px;
+     }
+}
+#text{
+    text-align: center;
+    p{
+        font-size: 18px;  
+    }
+    #last{
+        margin: 20px;
+    }
+}
+#bottom{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+    text-align: center;
+}
+#mod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#line{
+    width: 70px;
+    height: 1px;
+    background-color: #5d5858bf;
+}
+

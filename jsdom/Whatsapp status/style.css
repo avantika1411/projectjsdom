@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(169, 244, 255);
+}
+#card{
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+#card #top{
+    height: 45px;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: solid 1px black;
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+}
+#allstatus{
+    width: 100%;
+    height: 93.5%;
+    overflow: auto;
+    
+}
+#allstatus #onestatus{
+    width: 100%;
+   height: 70px;
+    display: flex;
+    align-items: center;
+    padding:10px ;
+    gap: 20px;
+    position: relative;
+}
+#profilephoto{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    border: solid 3px rgb(57, 154, 57);
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+#info{
+    h3{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 40;
+    }
+}
+#allstatus::-webkit-scrollbar {
+    /* width: 8px; */
+    display: none;
+}
+
+/* #allstatus::-webkit-scrollbar-thumb {
+    background-color: rgb(186, 245, 159);
+    border-radius: 4px; 
+} */
+#overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(84, 132, 138);
+}
+h2{
+    color: aquamarine;
+    font-size: 40px;
+}
+h1{
+    background-color:rgb(216, 206, 206);
+    padding: 100px 200px;
+    color:rgb(3, 46, 3);
+    border-radius: 10px;
+    font-size: 80px;
+}
+button{
+      padding: 10px 20px;
+      font-size: 20px;
+      border: none;
+      background-color:black;
+      color: white;
+      border-radius: 10px;
+}
+button:active{
+    scale: 0.95;
+}
