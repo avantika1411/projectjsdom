@@ -96,5 +96,4 @@ allstatus.addEventListener('click',function(dets){
          incre=0;
           overlay.style.display='none';
       },4000)
-
 })
